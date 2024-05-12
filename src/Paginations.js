@@ -94,7 +94,7 @@ export default function Pagination() {
         </tbody>
       </table>
       <div>
-        <button onClick={handlePreviousPage} disabled={page === 1}>Previous</button>
+        <button onClick={handlePreviousPage} disabled="">Previous</button>
         <span>{page}</span>
         <button onClick={handleNextPage} disabled={page === count}>Next</button>
       </div>
